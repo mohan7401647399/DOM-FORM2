@@ -47,4 +47,9 @@ var bre1 = br('br');
 var input = inputEle('input','type','email','id','email');
 var bre2 = br('br');
 
-document.body.append(fname,brf1,fnameinput,brf2,mname,brm1,mnameinput,brm2,lname,brl1,lnameinput,brl2,email,bre1,input,bre2);
+var pincode = createLabel('label','for','pcode','Pincode:');
+var brep1 = br('br');
+var pininput = inputEle('input','type','number','id','pcode');
+var brep2 = br('br');
+
+document.body.append(fname,brf1,fnameinput,brf2,mname,brm1,mnameinput,brm2,lname,brl1,lnameinput,brl2,email,bre1,input,bre2,pincode,brep1,pininput,brep2);
